@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+     function callback(){//second fn or callback fn
+        console.log("addition completed");
+        
+     }
+     const add= function(a, b, callback){ //main function
+        var result =a+b;
+        console.log('result:'+result)
+        callback()
+     }
+     add(5,6,callback)
+
+        
+    </script>
+    <h1>HI</h1>
+    
+</body>
+</html>
